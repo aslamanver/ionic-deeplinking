@@ -29,7 +29,7 @@ export class AppComponent {
       this.splashScreen.hide();
 
       this.deeplinks.route({
-        '/user': UserPage
+        '/user/:id': UserPage
       }).subscribe(match => {
         console.log(match);
         this.navController.navigateForward(match.$link.path);

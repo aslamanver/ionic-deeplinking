@@ -6,6 +6,6 @@ npm install --save @ionic-native/deeplinks
 
 ionic cordova run android --livereload --consolelogs --serverlogs
 
-adb shell am start -a android.intent.action.VIEW -d "aslam://app/user"
+adb shell am start -a android.intent.action.VIEW -d "aslam://app/user/52"
 
 ```
