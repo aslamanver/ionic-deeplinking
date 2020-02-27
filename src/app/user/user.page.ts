@@ -11,7 +11,7 @@ export class UserPage implements OnInit {
   constructor(private activatedRoute: ActivatedRoute) { }
 
   ngOnInit() {
-    console.log(this.activatedRoute.snapshot.paramMap.get('id'));
+    alert(this.activatedRoute.snapshot.paramMap.get('id'));
   }
 
 }
